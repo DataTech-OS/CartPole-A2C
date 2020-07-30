@@ -146,6 +146,7 @@ def main():
 			state, reward, done, info = environment.step(action)
 			state = np.reshape(state, (1,4))
 
+			steps += 1
 			agent.store_experiences(prev_state, reward, action, state, int(done))
 	
 		episodes = [episodes[i+1] for i in range(49)]
