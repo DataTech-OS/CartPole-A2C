@@ -118,7 +118,7 @@ class Agent():
 		self.done_memory = np.zeros((0,1))
 		self.value_fn_memory = np.zeros((0,1))
 	
-	def save_model():
+	def save_model(self):
 		pass #TODO
 
 def average(lst):
