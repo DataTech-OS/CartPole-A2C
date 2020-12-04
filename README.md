@@ -1,1 +1,1 @@
-Implementation of the Actor-Critic algorithm using tensorflow 2.2.0
+Implementation of the "Actor-Critic" reinforcement learning algorithm using tensorflow 2.2.0
